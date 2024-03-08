@@ -25,6 +25,9 @@ class Instructor:
             name (str): The name of the instructor.
             instructor_id (int): The unique ID of the instructor.
         """
+        self.name = name
+        self.instructor_id = instructor_id
+        self.courses_assigned = []
         pass
 
 
@@ -38,6 +41,5 @@ class Instructor:
         Returns:
             None
         """
+        self.courses_assigned.append(course)
         pass
-
-
